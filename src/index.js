@@ -3,10 +3,27 @@ import ReactDOM from 'react-dom';
 import './style.css';
 import reportWebVitals from './reportWebVitals';
 
-function App(){
+function Input(){
   return <div>
-    <h1>Hello</h1>
+    <h2>Metaphorpsum Generator</h2>
+    Paragraphs<input type="number" max={99}/><br/>
+    Sentences<input type="number" max={99}/>
   </div>
+}
+
+function Output(){
+  return <div>
+    
+  </div>
+}
+
+function App(){
+
+  return <div>
+    <Input/>
+    <Output/>
+  </div>
+  
 }
 
 
