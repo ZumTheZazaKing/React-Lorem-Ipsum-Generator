@@ -5,14 +5,31 @@ import reportWebVitals from './reportWebVitals';
 import { loremIpsum } from 'lorem-ipsum';
 
 function Input(props){
-  return <div>
+  return <div className="input">
     <h2>Lorem Ipsum Generator</h2>
     <form onSubmit={e => props.generate(e)}>
-      Paragraphs: <input type="number" min={1} max={99} value={props.paragraphs} onChange={e => props.changeParagraphs(e)} required/>
-      <br/>
-      Sentences per Paragraph: <input type="number" min={1} max={99} value={props.sentences} onChange={e => props.changeSentences(e)}/>
-      <br/>
-      Words per Sentence: <input type="number" min={1} max={99} value={props.words} onChange={e => props.changeWords(e)}/>
+      <table>
+        <tbody>
+        <tr>
+          <td>Paragraphs:</td>
+          <td>
+          <input type="number" min={1} max={99} value={props.paragraphs} onChange={e => props.changeParagraphs(e)} required/>
+          </td>
+        </tr>
+        <tr>
+          <td>Sentences per Paragraph:</td>
+          <td>
+          <input type="number" min={1} max={99} value={props.sentences} onChange={e => props.changeSentences(e)}/>
+          </td>
+        </tr>
+        <tr>
+          <td>Words per Sentence:</td>
+          <td>
+          <input type="number" min={1} max={99} value={props.words} onChange={e => props.changeWords(e)}/>
+          </td>
+        </tr>
+        </tbody>
+      </table>
       <br/>
       <input type="submit" value="Generate"/>
     </form>
@@ -20,7 +37,7 @@ function Input(props){
 }
 
 function Output(props){
-  return <div dangerouslySetInnerHTML={{__html:props.generatedText}}></div>
+  return <div className="output" dangerouslySetInnerHTML={{__html:props.generatedText}}></div>
 }
 
 function App(){
@@ -51,7 +68,7 @@ function App(){
 
   }
 
-  return <div>
+  return <div className="container">
     <Input 
     paragraphs={paragraphs} 
     sentences={sentences}
@@ -61,7 +78,7 @@ function App(){
     changeWords={changeWords}
     generate={generate}
     />
-
+    <br/>
     <Output
     generatedText={generatedText}
     />
