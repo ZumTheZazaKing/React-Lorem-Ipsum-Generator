@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Lorem-Ipsum-Generator/static/css/main.729a9fbd.chunk.css",
+    "main.js": "/React-Lorem-Ipsum-Generator/static/js/main.76ab4c7d.chunk.js",
+    "main.js.map": "/React-Lorem-Ipsum-Generator/static/js/main.76ab4c7d.chunk.js.map",
+    "runtime-main.js": "/React-Lorem-Ipsum-Generator/static/js/runtime-main.e4e6a125.js",
+    "runtime-main.js.map": "/React-Lorem-Ipsum-Generator/static/js/runtime-main.e4e6a125.js.map",
+    "static/js/2.5c979095.chunk.js": "/React-Lorem-Ipsum-Generator/static/js/2.5c979095.chunk.js",
+    "static/js/2.5c979095.chunk.js.map": "/React-Lorem-Ipsum-Generator/static/js/2.5c979095.chunk.js.map",
+    "static/js/3.3ab4fd7c.chunk.js": "/React-Lorem-Ipsum-Generator/static/js/3.3ab4fd7c.chunk.js",
+    "static/js/3.3ab4fd7c.chunk.js.map": "/React-Lorem-Ipsum-Generator/static/js/3.3ab4fd7c.chunk.js.map",
+    "index.html": "/React-Lorem-Ipsum-Generator/index.html",
+    "static/css/main.729a9fbd.chunk.css.map": "/React-Lorem-Ipsum-Generator/static/css/main.729a9fbd.chunk.css.map",
+    "static/js/2.5c979095.chunk.js.LICENSE.txt": "/React-Lorem-Ipsum-Generator/static/js/2.5c979095.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4e6a125.js",
+    "static/js/2.5c979095.chunk.js",
+    "static/css/main.729a9fbd.chunk.css",
+    "static/js/main.76ab4c7d.chunk.js"
+  ]
+}
